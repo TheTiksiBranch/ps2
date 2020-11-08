@@ -10,11 +10,12 @@ things that could plausibly be done between gens.
 Specifically, the core rules of NEXT are:
 
 1. no base stat changes
-2. no removing from movepools
-3. no removing from ability distribution
-4. no typing changes (except on formes)
-5. no buffing OU mons, except maybe tiny buffs to mons at the bottom of OU
-6. no doing things that make zero sense flavor-wise
+2. no removing from movepools or ability distribution
+3. no typing changes (except on formes) or changes to the typechart
+4. no buffing OU mons, except maybe tiny buffs to mons at the bottom of OU
+5. no doing things that make zero sense flavor-wise
+6. all Pokemon are usable, including dex cuts, Mega Evolutions, and Floette-E
+7. Dynamax will be modified to fit in OU
 
 What's left is mainly changes to how abilities and moves work, which is
 most of what NEXT is about.
@@ -31,7 +32,7 @@ NEXT's "don't change" list. The result is a metagame that feels a lot like
 a new generation: existing OU threats stay mostly the same, but many new
 threats and strategies are introduced.
 
-And yes, we know that "no base stat changes" has been broken in Gen 6. We're
+And yes, we know that "no base stat changes" and "no typechart changes" have been broken. We're
 still not doing it, because it's hard to constrain and hard to keep track of.
 
 Recent changes
@@ -45,6 +46,20 @@ Changes
 ------------------------------------------------------------------------
 
 Generation NEXT currently makes the following changes:
+
+Mechanics changes:
+
+- Dynamax and Gigantamax only last one turn. This makes Max and GMax moves usable without destroying the metagame.
+
+- Baton Pass can't transfer stat boosts, but it can transfer trap and partial-trap moves.
+
+- Freeze always thaws at the second turn. (Blizzard now has a 30% freeze chance.)
+
+- Confusion's self-attack lasts every turn, but doesn't cancel the chosen move. Confusion lasts 3-5 turns.
+
+- Each side can have its own weather or (not and) terrain, which lasts indefinitely. Most are nerfed to compensate.
+
+- Move and ability incompatibilites are ignored.
 
 Major changes:
 
