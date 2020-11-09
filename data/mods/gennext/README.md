@@ -59,65 +59,23 @@ Mechanics changes:
 
 - Each side can have its own weather or (not and) terrain, which lasts indefinitely. Most are nerfed to compensate.
 
-- Move and ability incompatibilites are ignored.
-
 Major changes:
 
-- Stealth Rock now does 1/4 damage against Flying-types, and 1/8 damage against
-  everything else.
+- Moves with semi-invulnerable or charge turns have +1 priority on both turns.
+
+- Moves with recharge turns only recharge if they KO the target, like the reverse of Generation 1.
+
+- Primal Power is an 80 BP, 90 Acc Physical Rock-type move that all fossil Pokemon get. It raises a random stat on hit, and is Special if the user's Special Attack is higher. 
 
 - Drives will change Genesect's typing immediately after switch-in, to Bug/Ice,
   Bug/Fire, Bug/Electric, or Bug/Water. However, Download will not activate for
   Genesect unless it holds a Drive.
+  
+- Move and ability incompatibilities are ignored, and unreleased abilities are released.
 
-- Unown gets an item named Strange Orb (select "Stick" in the teambuilder)
-  It doubles its SpA, SpD, and Spe, and changes its type to the type of its
-  Hidden Power.
+- Teleport has +6 priority instead of -6 priority.
 
-- Weather moves, such as Sunny Day, Rain Dance, Hail, and Sandstorm have +1
-  Priority.
-
-- Forecast will make weather moves last forever. Cherrim will make Sunny Day
-  last forever. Phione will make Rain Dance last forever. Cryogonal will make
-  Hail last forever. Probopass will make Sandstorm last forever.
-
-- Hail is improved:
-  - Silver Wind, Ominous Wind, and Avalanche deal 1.5x damage in Hail
-  - Snow Cloak no longer modifies evasion, but instead decreases damage by 25%
-    in Hail (and 12.5% out of Hail)
-  - Ice Body has 30% chance of freezing a contact move (and grants passive
-    healing out of Hail, too)
-  - Thick Fat, Marvel Scale, and Flame Body grant immunity to Hail damage
-
-- Freezing doesn't have a 20% thaw chance. Instead, thawing happens at the end
-  of the second turn. Because this new freeze effect is a nerf, Blizzard now
-  has a 30% chance of inflicting freeze.
-
-- Swift Swim, Chlorophyll, and Sand Rush are nerfed to give a 1.5x speed buff instead.
-
-- Every Hidden Ability is released.
-
-- Moves with a charge turn are now a lot more powerful. They remove Protect and
-  Substitute before hitting, they always crit (although their base power has
-  been adjusted accordingly), they have perfect accuracy, and one other change
-  depending on the move:
-  - SolarBeam: heal 50% on the charge turn, 80 bp
-  - Razor Wind: 100% confusion, 60 bp
-  - Skull Bash: +1 Def, +1 SpD, +1 accuracy on the charge turn, 70 bp
-  - Sky Attack: 100% -1 Def, 95 bp
-  - Freeze Shock: 100% paralysis, 95 bp
-  - Ice Burn: 100% burn, 95 bp
-  - Bounce: 30% paralysis, 60 bp
-  - Fly: 100% -1 Def, 60 bp
-  - Dig: 100% -1 Def, 60 bp
-  - Dive: 100% -1 Def, 60 bp
-  - Shadow Force: 100% Ghost-Curse, 40 bp
-  - Sky Drop: 100% -1 Def, 60 bp
-  - Phantom Force: 100% -1 Def, 60 bp
-
-- Recharge moves are similarly buffed. They have 100 base power, always crit,
-  and they only recharge if they KO. Be careful - in return for a KO, they
-  still give the foe a free switch-in _and_ a turn to set up.
+- Explosion, Self-Destruct, and Misty Explosion always crit. Misty Explosion has 150 BP.
 
 - Flower Gift now only boosts Sp. Def, but if Sunny Day is used while Cherrim
   is out, the next switch-in also receives +1 SpD
